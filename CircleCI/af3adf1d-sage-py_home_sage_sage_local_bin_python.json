@@ -1,0 +1,38 @@
+{
+    "commit_hash": "af3adf1dcadade67665b14a6279446e89e8568dc", 
+    "date": 1527415737000, 
+    "ended_at": {
+        "benchmarks.MemSuite.mem_list": 1527469587000, 
+        "benchmarks.TimeSuite.time_iterkeys": 1527469590000, 
+        "benchmarks.TimeSuite.time_keys": 1527469593000, 
+        "benchmarks.TimeSuite.time_range": 1527469594000, 
+        "benchmarks.TimeSuite.time_xrange": 1527469594000
+    }, 
+    "env_name": "sage-py_home_sage_sage_local_bin_python", 
+    "params": {
+        "arch": "x86_64", 
+        "cpu": "Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz or similar", 
+        "machine": "CircleCI", 
+        "os": "Linux", 
+        "python": "2.7", 
+        "ram": "61830880"
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {}, 
+    "results": {
+        "benchmarks.MemSuite.mem_list": 2424, 
+        "benchmarks.TimeSuite.time_iterkeys": 8.486279829999999e-06, 
+        "benchmarks.TimeSuite.time_keys": 8.995533459999998e-06, 
+        "benchmarks.TimeSuite.time_range": 2.68278241e-05, 
+        "benchmarks.TimeSuite.time_xrange": 2.3159413299999998e-05
+    }, 
+    "started_at": {
+        "benchmarks.MemSuite.mem_list": 1527469587000, 
+        "benchmarks.TimeSuite.time_iterkeys": 1527469587000, 
+        "benchmarks.TimeSuite.time_keys": 1527469590000, 
+        "benchmarks.TimeSuite.time_range": 1527469593000, 
+        "benchmarks.TimeSuite.time_xrange": 1527469594000
+    }, 
+    "version": 1
+}
