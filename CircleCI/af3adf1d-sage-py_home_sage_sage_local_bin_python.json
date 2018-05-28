@@ -7,7 +7,7 @@
         "benchmarks.TimeSuite.time_keys": 1527469593000, 
         "benchmarks.TimeSuite.time_range": 1527469594000, 
         "benchmarks.TimeSuite.time_xrange": 1527469594000, 
-        "semistable.PicardCurve.time_is_semistable": 1527473764000
+        "semistable.PicardCurve.time_is_semistable": 1527474040000
     }, 
     "env_name": "sage-py_home_sage_sage_local_bin_python", 
     "params": {
@@ -27,7 +27,7 @@
         "benchmarks.TimeSuite.time_keys": 8.995533459999998e-06, 
         "benchmarks.TimeSuite.time_range": 2.68278241e-05, 
         "benchmarks.TimeSuite.time_xrange": 2.3159413299999998e-05, 
-        "semistable.PicardCurve.time_is_semistable": 11.468963494
+        "semistable.PicardCurve.time_is_semistable": 12.114423707999999
     }, 
     "started_at": {
         "benchmarks.MemSuite.mem_list": 1527469587000, 
@@ -35,7 +35,7 @@
         "benchmarks.TimeSuite.time_keys": 1527469590000, 
         "benchmarks.TimeSuite.time_range": 1527469593000, 
         "benchmarks.TimeSuite.time_xrange": 1527469594000, 
-        "semistable.PicardCurve.time_is_semistable": 1527473751000
+        "semistable.PicardCurve.time_is_semistable": 1527474025000
     }, 
     "version": 1
 }
