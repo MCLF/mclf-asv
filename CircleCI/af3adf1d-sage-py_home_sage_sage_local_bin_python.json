@@ -7,7 +7,7 @@
         "benchmarks.TimeSuite.time_keys": 1527469593000, 
         "benchmarks.TimeSuite.time_range": 1527469594000, 
         "benchmarks.TimeSuite.time_xrange": 1527469594000, 
-        "semistable.PicardCurve.time_is_semistable": 1527473240000
+        "semistable.PicardCurve.time_is_semistable": 1527473522000
     }, 
     "env_name": "sage-py_home_sage_sage_local_bin_python", 
     "params": {
@@ -35,7 +35,7 @@
         "benchmarks.TimeSuite.time_keys": 1527469590000, 
         "benchmarks.TimeSuite.time_range": 1527469593000, 
         "benchmarks.TimeSuite.time_xrange": 1527469594000, 
-        "semistable.PicardCurve.time_is_semistable": 1527473237000
+        "semistable.PicardCurve.time_is_semistable": 1527473519000
     }, 
     "version": 1
 }
