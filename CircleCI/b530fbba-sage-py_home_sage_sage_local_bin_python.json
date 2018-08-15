@@ -2,8 +2,8 @@
     "commit_hash": "b530fbba030dc1dc38f7f627141940a92fd6239f", 
     "date": 1534330555000, 
     "ended_at": {
-        "semistable.JSMCurve.time_is_semistable": 1534330813000, 
-        "semistable.PicardCurve.time_is_semistable": 1534330828000
+        "semistable.JSMCurve.time_is_semistable": 1534331007000, 
+        "semistable.PicardCurve.time_is_semistable": 1534331020000
     }, 
     "env_name": "sage-py_home_sage_sage_local_bin_python", 
     "params": {
@@ -18,12 +18,12 @@
     "python": "2.7", 
     "requirements": {}, 
     "results": {
-        "semistable.JSMCurve.time_is_semistable": 23.867435733999997, 
-        "semistable.PicardCurve.time_is_semistable": 10.714573852000001
+        "semistable.JSMCurve.time_is_semistable": 23.697463322999997, 
+        "semistable.PicardCurve.time_is_semistable": 10.085849565
     }, 
     "started_at": {
-        "semistable.JSMCurve.time_is_semistable": 1534330785000, 
-        "semistable.PicardCurve.time_is_semistable": 1534330813000
+        "semistable.JSMCurve.time_is_semistable": 1534330979000, 
+        "semistable.PicardCurve.time_is_semistable": 1534331007000
     }, 
     "version": 1
 }
