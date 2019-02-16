@@ -1,29 +1,35 @@
 {
     "semistable.JSMCurve.time_is_semistable": {
-        "code": "def time_is_semistable(self):\n    K = FunctionField(QQ, 'x')\n    x = K.gen()\n    R = PolynomialRing(K, 'T')\n    T = R.gen()\n    f = 64*x**3*T - 64*x**3 + 36*x**2*T**2 + 208*x**2*T + 192*x**2 + 9*x*T**3 + 72*x*T**2 + 240*x*T + 64*x +T**4 + 9*T**3 + 52*T**2 + 48*T\n    L = K.extension(f, 'y')\n    Y = SmoothProjectiveCurve(L)\n    v = QQ.valuation(13)\n    M = SemistableModel(Y, v)\n    return M.is_semistable()\n", 
-        "goal_time": 2.0, 
+        "code": "class JSMCurve:\n    def time_is_semistable(self):\n        K = FunctionField(QQ, 'x')\n        x = K.gen()\n        R = PolynomialRing(K, 'T')\n        T = R.gen()\n        f = 64*x**3*T - 64*x**3 + 36*x**2*T**2 + 208*x**2*T + 192*x**2 + 9*x*T**3 + 72*x*T**2 + 240*x*T + 64*x +T**4 + 9*T**3 + 52*T**2 + 48*T\n        L = K.extension(f, 'y')\n        Y = SmoothProjectiveCurve(L)\n        v = QQ.valuation(13)\n        M = SemistableModel(Y, v)\n        return M.is_semistable()", 
+        "min_run_count": 2, 
         "name": "semistable.JSMCurve.time_is_semistable", 
         "number": 0, 
         "param_names": [], 
         "params": [], 
-        "pretty_name": "semistable.JSMCurve.time_is_semistable", 
+        "processes": 2, 
         "repeat": 0, 
+        "sample_time": 0.01, 
         "timeout": 60.0, 
         "type": "time", 
-        "unit": "seconds"
+        "unit": "seconds", 
+        "version": "3fb3744e2a89b96e1a7bc42f98e86fa8ab8f6e69e8692a37b61e590c9c20c848", 
+        "warmup_time": -1
     }, 
     "semistable.PicardCurve.time_is_semistable": {
-        "code": "def time_is_semistable(self):\n    R = PolynomialRing(QQ, 'x')\n    x = R.gen()\n    Y = SuperellipticCurve(x**4 - 1, 3)\n    v_2 = QQ.valuation(2)\n    Y2 = SemistableModel(Y, v_2)\n    return Y2.is_semistable()\n", 
-        "goal_time": 2.0, 
+        "code": "class PicardCurve:\n    def time_is_semistable(self):\n        R = PolynomialRing(QQ, 'x')\n        x = R.gen()\n        Y = SuperellipticCurve(x**4 - 1, 3)\n        v_2 = QQ.valuation(2)\n        Y2 = SemistableModel(Y, v_2)\n        return Y2.is_semistable()", 
+        "min_run_count": 2, 
         "name": "semistable.PicardCurve.time_is_semistable", 
         "number": 0, 
         "param_names": [], 
         "params": [], 
-        "pretty_name": "semistable.PicardCurve.time_is_semistable", 
+        "processes": 2, 
         "repeat": 0, 
+        "sample_time": 0.01, 
         "timeout": 60.0, 
         "type": "time", 
-        "unit": "seconds"
+        "unit": "seconds", 
+        "version": "9c169ec9f50d4f63e7c751316bb00a7fd6e602c13f4823c46648d0c416fd4822", 
+        "warmup_time": -1
     }, 
-    "version": 1
+    "version": 2
 }
