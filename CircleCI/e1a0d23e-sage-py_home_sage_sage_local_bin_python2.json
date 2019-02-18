@@ -1,0 +1,73 @@
+{
+    "benchmark_version": {
+        "semistable.JSMCurve.time_is_semistable": "3fb3744e2a89b96e1a7bc42f98e86fa8ab8f6e69e8692a37b61e590c9c20c848", 
+        "semistable.PicardCurve.time_is_semistable": "9c169ec9f50d4f63e7c751316bb00a7fd6e602c13f4823c46648d0c416fd4822"
+    }, 
+    "commit_hash": "e1a0d23e3cfe7dc322766465aabae6f4773aba69", 
+    "date": 1550518474000, 
+    "ended_at": {
+        "semistable.JSMCurve.time_is_semistable": 1550518607961, 
+        "semistable.PicardCurve.time_is_semistable": 1550518621793
+    }, 
+    "env_name": "sage-py_home_sage_sage_local_bin_python2", 
+    "params": {
+        "arch": "x86_64", 
+        "cpu": "Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz or similar", 
+        "machine": "CircleCI", 
+        "os": "Linux", 
+        "python": "2.7", 
+        "ram": "61830880"
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {}, 
+    "results": {
+        "semistable.JSMCurve.time_is_semistable": {
+            "result": [
+                15.325941252500002
+            ], 
+            "stats": [
+                {
+                    "ci_99": [
+                        12.051233777499952, 
+                        18.600648727500047
+                    ], 
+                    "max": 15.391435402000003, 
+                    "mean": 15.325941252500002, 
+                    "min": 15.260447103, 
+                    "number": 1, 
+                    "q_25": 15.29319417775, 
+                    "q_75": 15.358688327250004, 
+                    "repeat": 2, 
+                    "std": 0.06549414950000099
+                }
+            ]
+        }, 
+        "semistable.PicardCurve.time_is_semistable": {
+            "result": [
+                4.1722355215
+            ], 
+            "stats": [
+                {
+                    "ci_99": [
+                        3.9264570578954165, 
+                        4.472794761104583
+                    ], 
+                    "max": 4.357770991, 
+                    "mean": 4.1996259095, 
+                    "min": 4.096261604, 
+                    "number": 1, 
+                    "q_25": 4.123423428500001, 
+                    "q_75": 4.2484380025, 
+                    "repeat": 4, 
+                    "std": 0.10044393260062277
+                }
+            ]
+        }
+    }, 
+    "started_at": {
+        "semistable.JSMCurve.time_is_semistable": 1550518576494, 
+        "semistable.PicardCurve.time_is_semistable": 1550518607961
+    }, 
+    "version": 1
+}
