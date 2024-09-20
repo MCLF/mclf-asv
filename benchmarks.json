@@ -1,6 +1,6 @@
 {
     "semistable.JSMCurve.time_is_semistable": {
-        "code": "class JSMCurve:\n    def time_is_semistable(self):\n        K = FunctionField(QQ, 'x')\n        x = K.gen()\n        R = PolynomialRing(K, 'T')\n        T = R.gen()\n        f = 64*x**3*T - 64*x**3 + 36*x**2*T**2 + 208*x**2*T + 192*x**2 + 9*x*T**3 + 72*x*T**2 + 240*x*T + 64*x +T**4 + 9*T**3 + 52*T**2 + 48*T\n        L = K.extension(f, 'y')\n        Y = SmoothProjectiveCurve(L)\n        v = QQ.valuation(13)\n        M = SemistableModel(Y, v)\n        return M.is_semistable()", 
+        "code": "class JSMCurve:\n    def time_is_semistable(self):\n        K = FunctionField(QQ, 'x')\n        x = K.gen()\n        R = PolynomialRing(K, 'T')\n        T = R.gen()\n        f = 64*x**3*T - 64*x**3 + 36*x**2*T**2 + 208*x**2*T + 192*x**2 + 9*x*T**3 + 72*x*T**2 + 240*x*T + 64*x + T**4 + 9*T**3 + 52*T**2 + 48*T\n        L = K.extension(f, 'y')\n        Y = SmoothProjectiveCurve(L)\n        v = QQ.valuation(13)\n        M = SemistableModel(Y, v)\n        return M.is_semistable()", 
         "min_run_count": 2, 
         "name": "semistable.JSMCurve.time_is_semistable", 
         "number": 0, 
@@ -12,7 +12,7 @@
         "timeout": 60.0, 
         "type": "time", 
         "unit": "seconds", 
-        "version": "3fb3744e2a89b96e1a7bc42f98e86fa8ab8f6e69e8692a37b61e590c9c20c848", 
+        "version": "905d052badae6f147cf4a29d7f2c8282ef49d46f9cabdd016bf2b121565b71ba", 
         "warmup_time": -1
     }, 
     "semistable.PicardCurve.time_is_semistable": {
